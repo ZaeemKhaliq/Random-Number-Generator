@@ -1,17 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>RANDOM NUMBER GENERATOR!</h1>
+  <Counter />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Counter from "./components/Counter";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    Counter,
+  },
+};
 </script>
 
 <style lang="scss">
