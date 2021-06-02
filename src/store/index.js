@@ -53,6 +53,9 @@ export default createStore({
           console.log(err);
         });
     },
+    setColor({ commit }, newColor) {
+      commit("setColor", newColor);
+    },
   },
   getters: {
     counterSquared(state) {

@@ -68,7 +68,7 @@ export default {
         return this.$store.state.color;
       },
       set(newValue) {
-        this.$store.commit("setColor", newValue);
+        this.$store.dispatch("setColor", newValue);
       },
     },
   },
